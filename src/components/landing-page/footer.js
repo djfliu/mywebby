@@ -31,7 +31,7 @@ export default class footer extends Component{
                                 </a>
                             </li>
                         </ul>
-                        <p className="text-muted small mb-0">Copyright © Your Website 2019</p>
+                        <p className="text-muted small mb-0">Copyright © Dannyjfliu 2019</p>
                     </div>
                 </footer>
                 {/* Scroll to Top Button*/}

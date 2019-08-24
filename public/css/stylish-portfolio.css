@@ -11,7 +11,9 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Silka-Regular', 'sans-serif';
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/landingpage/portfolio_bg.svg") !important;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/landingpage/portfolio_bg.svg") !important;
 }
 
 .btn-xl {
@@ -93,8 +95,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/landingpage/masthead_bg.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/landingpage/masthead_bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,6 +232,17 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+.scroll-down{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 5px;
+  left: 3%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+  text-align: center;
+}
+
 .callout {
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
@@ -244,6 +257,10 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+}
+
+.portfolio-layout{
+    margin: 5em;
 }
 
 .portfolio-item {
@@ -339,22 +356,23 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #6e0c24;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #ff626e;
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #27272c !important;
+  border-color: #27272c !important;
   color: #fff !important;
+    border-radius: 5em;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #27272c !important;
+  border-color: #27272c !important;
 }
 
 .btn-secondary {
@@ -379,13 +397,14 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color:  #27272c !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color:  #27272c !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #1a3144 !important;
 }
+

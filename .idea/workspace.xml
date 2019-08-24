@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67d53d2a-5dde-4c33-9d14-25a346142561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/landing-page/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/landing-page/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/landing-page/me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/landing-page/portfolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landingpage/masthead_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landingpage/portfolio_bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/freelancer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/freelancer.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/stylish-portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stylish-portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/freelancer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/freelancer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scss/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/_masthead.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/stylish-portfolio.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing-page/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing-page/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing-page/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing-page/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landing-page/masthead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing-page/masthead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing-page/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing-page/portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="E:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,7 +52,12 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img\landingpage" />
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img" />
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public" />
     </key>
   </component>
@@ -116,6 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566148242976</updated>
       <workItem from="1566148245410" duration="2539000" />
+      <workItem from="1566610397743" duration="10175000" />
     </task>
     <servers />
   </component>

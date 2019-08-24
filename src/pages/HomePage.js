@@ -12,9 +12,8 @@ export default function HomePage() {
         <body id="page-top">
             <Sidebar/>
             <MastHead/>
-            <About/>
-            <Me/>
             <Portfolio/>
+            <About/>
             <Footer/>
         </body>
     )
