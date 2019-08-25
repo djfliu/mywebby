@@ -4,45 +4,36 @@ export default class portfolio extends Component{
     render(){
         return(
         <div id="carousel-example-2" className="carousel slide carousel-fade z-depth-1-half portfolio-layout" data-ride="carousel">
-            {/*Indicators*/}
-            <ol className="carousel-indicators">
-                <li data-target="#carousel-example-2" data-slide-to={0} className="active" />
-                <li data-target="#carousel-example-2" data-slide-to={1} />
-                <li data-target="#carousel-example-2" data-slide-to={2} />
-            </ol>
             {/*/.Indicators*/}
             {/*Slides*/}
             <div className="carousel-inner" role="listbox">
                 <div className="carousel-item active">
                     <div className="view">
-                        <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg" alt="First slide" />
+                        <img className="d-block w-100" src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF" alt="2nd photo" />
                         <div className="mask rgba-black-light" />
                     </div>
-                    <div className="carousel-caption">
-                        <h3 className="h3-responsive">This is the first title</h3>
-                        <p>First text</p>
+                    <div className="carousel-caption justify-content-center align-items-center">
+                        <h3 className="h3-responsive">People</h3>
                     </div>
                 </div>
                 <div className="carousel-item">
                     {/*Mask color*/}
                     <div className="view">
-                        <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg" alt="Second slide" />
+                        <img className="d-block w-100" src="https://public.adobecc.com/files/1UKGTCAHFL5ZK2H1VH0NVDANPRCFFF" alt="../../public" />
                         <div className="mask rgba-black-light" />
                     </div>
                     <div className="carousel-caption">
-                        <h3 className="h3-responsive">Thir is the second title</h3>
-                        <p>Secondary text</p>
+                        <h3 className="h3-responsive">Landscape</h3>
                     </div>
                 </div>
                 <div className="carousel-item">
                     {/*Mask color*/}
                     <div className="view">
-                        <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(108).jpg" alt="Third slide" />
+                        <img className="d-block w-100" src="https://public.adobecc.com/files/1UGMTOEJQX21COJLZAYIO5ZBMTSEFF" alt="Third slide" />
                         <div className="mask rgba-black-light" />
                     </div>
                     <div className="carousel-caption">
-                        <h3 className="h3-responsive">This is the third title</h3>
-                        <p>Third text</p>
+                        <h3 className="h3-responsive">Travel</h3>
                     </div>
                 </div>
             </div>

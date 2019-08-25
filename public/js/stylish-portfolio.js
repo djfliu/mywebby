@@ -40,6 +40,7 @@
     }
   });
 
+
 })(jQuery); // End of use strict
 
 // Disable Google Maps scrolling

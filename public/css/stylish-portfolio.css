@@ -408,3 +408,19 @@ a:hover, a:focus, a:active {
   color: #1a3144 !important;
 }
 
+.carousel-caption{
+  opacity:0;
+  transition:500ms ease-in-out;
+  bottom: 45%;
+}
+.carousel-item:hover .carousel-caption{
+  opacity:1;
+}
+
+.carousel-item .view .dblock:hover {
+  opacity: 0.1;
+}
+
+.carousel{
+
+}

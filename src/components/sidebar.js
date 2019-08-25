@@ -1,35 +1,35 @@
 import React, { Component } from "react";
+import Sidebar from "react-sidebar";
+
 
 export default class sidebar extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            sidebarOpen: false
+        };
+        this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
+    }
+
+    onSetSidebarOpen(open) {
+        this.setState({ sidebarOpen: open });
+    }
+
     render(){
         return (
-            <div>
-                <a className="menu-toggle rounded" href="#">
-                    <i className="fas fa-bars" />
-                </a>
-                <nav id="sidebar-wrapper">
-                    <ul className="sidebar-nav">
-                        <li className="sidebar-brand">
-                            <a className="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-                        </li>
-                        <li className="sidebar-nav-item">
-                            <a className="js-scroll-trigger" href="#page-top">Home</a>
-                        </li>
-                        <li className="sidebar-nav-item">
-                            <a className="js-scroll-trigger" href="#about">About</a>
-                        </li>
-                        <li className="sidebar-nav-item">
-                            <a className="js-scroll-trigger" href="#services">Services</a>
-                        </li>
-                        <li className="sidebar-nav-item">
-                            <a className="js-scroll-trigger" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li className="sidebar-nav-item">
-                            <a className="js-scroll-trigger" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <Sidebar
+                sidebar={<b>THIS IS WHERE THE CONTENT GOES</b>}
+                open={this.state.sidebarOpen}
+                onSetOpen={this.onSetSidebarOpen}
+                pullRight={true}
+                styles={{ sidebar: { background: "transparent" } }}
+            >
+                <div>
+                    <a className="menu-toggle rounded" onClick={() => this.onSetSidebarOpen(true)}>
+                        <i className="fas fa-bars" />
+                    </a>
+                </div>
+            </Sidebar>
         )
     }
 }

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { Link } from 'react-router-dom';
 
 const padding = {
     paddingBottom: '2em'
@@ -35,7 +36,7 @@ export default class masthead extends Component {
                             </a>
                         </li>
                     </ul>
-                     <a className="btn-rounded btn-primary btn-xl js-scroll-trigger font-weight-bold" href="#TODO">My work<i className="fas fa-arrow-right"></i></a>
+                    <a className="btn-rounded btn-primary btn-xl js-scroll-trigger font-weight-bold"><Link to="/works" style={{color: 'white'}}>My work<i className="fas fa-arrow-right"></i></Link></a>
                 </div>
                 <div className="overlay" />
                 <a className="scroll-down" href="#page-top">
