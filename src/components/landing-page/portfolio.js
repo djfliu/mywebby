@@ -13,7 +13,7 @@ export default class portfolio extends Component{
                         <div className="mask rgba-black-light" />
                     </div>
                     <div className="carousel-caption justify-content-center align-items-center">
-                        <h3 className="h3-responsive">People</h3>
+                        <h3 className="h3-responsive">PEOPLE</h3>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -23,7 +23,7 @@ export default class portfolio extends Component{
                         <div className="mask rgba-black-light" />
                     </div>
                     <div className="carousel-caption">
-                        <h3 className="h3-responsive">Landscape</h3>
+                        <h3 className="h3-responsive">LANDSCAPE</h3>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -33,7 +33,7 @@ export default class portfolio extends Component{
                         <div className="mask rgba-black-light" />
                     </div>
                     <div className="carousel-caption">
-                        <h3 className="h3-responsive">Travel</h3>
+                        <h3 className="h3-responsive">TRAVEL</h3>
                     </div>
                 </div>
             </div>

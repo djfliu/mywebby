@@ -241,6 +241,11 @@ h6 {
   transform: translate(-50%, 0);
   z-index: 3;
   text-align: center;
+    color: #6e0c24; !important;
+}
+
+.scroll-down:active, .scroll-down:hover, .scroll-down:focus{
+    color: #ff626e; !important;
 }
 
 .callout {
@@ -356,12 +361,14 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #6e0c24;
+  color: black;
 }
 
 a:hover, a:focus, a:active {
-  color: #ff626e;
+  color: gray;
 }
+
+
 
 .btn-primary {
   background-color: #27272c !important;
@@ -424,3 +431,22 @@ a:hover, a:focus, a:active {
 .carousel{
 
 }
+
+#sideBarText{
+    line-height: 2em;
+    font-size: medium;
+    color: white; !important;
+}
+
+#sideBarText li a{
+    color: white; !important;
+}
+
+.vertical-center {
+    margin: 0 0 0 2em;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
