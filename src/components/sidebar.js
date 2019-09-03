@@ -22,20 +22,20 @@ export default class sidebar extends Component{
                 sidebar={
                     <b>
                         <div id="wrapper" className="vertical-center">
-                            <img src="https://public.adobecc.com/files/1UPGSOOS3RO3O2XLRELBML4SK0SEFF" alt="logo" style={{width: "5em", height: "5em", margin: "0 0 0 2.7em"}}></img>
+                            <img src="https://public.adobecc.com/files/1UPGSOOS3RO3O2XLRELBML4SK0SEFF" alt="logo" style={{width: "5em", height: "5em", margin: "0 0 0 2.7em"}}/>
                             <nav id="sidebar">
                                 <ul className="list-unstyled components text-center" id="sideBarText">
                                     <li>
-                                        <a><i className="fas fa-user"></i><Link to="/works"> ABOUT ME</Link></a>
+                                        <a><i className="fas fa-user"/><Link to="/about"> ABOUT ME</Link></a>
                                     </li>
                                     <li>
-                                        <a href="#" ><i className="fas fa-camera"></i> MY WORK</a>
+                                        <a href="#" ><i className="fas fa-camera"/><Link to="/works"> MY WORK</Link></a>
                                     </li>
                                     <li>
-                                        <a href="#" ><i className="fas fa-user"></i> THE OPENSPACE APP</a>
+                                        <a href="#" ><i className="fas fa-user"/> THE OPENSPACE APP</a>
                                     </li>
                                     <li>
-                                        <a href="#" ><i className="far fa-address-card"></i> GET IN TOUCH</a>
+                                        <a href="#" ><i className="far fa-address-card"/><Link to="/contact"> GET IN TOUCH</Link></a>
                                     </li>
                                 </ul>
                             </nav>
@@ -66,7 +66,7 @@ export default class sidebar extends Component{
                 onSetOpen={this.onSetSidebarOpen}
                 pullRight={true}
                 styles={{
-                    sidebar: { background: "black", position: "fixed", width: "15em"},
+                    sidebar: { background: "black", position: "fixed", width: "15em", zIndex: 4},
                     content: {}
                 }}
             >

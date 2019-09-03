@@ -6,7 +6,7 @@ export default class portfolio extends Component{
         <div id="carousel-example-2" className="carousel slide carousel-fade z-depth-1-half portfolio-layout" data-ride="carousel">
             {/*/.Indicators*/}
             {/*Slides*/}
-            <div className="carousel-inner" role="listbox">
+            <div className="carousel-inner" role="listbox" >
                 <div className="carousel-item active">
                     <div className="view">
                         <img className="d-block w-100" src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF" alt="2nd photo" />

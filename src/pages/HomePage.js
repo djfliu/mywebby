@@ -5,14 +5,13 @@ import Sidebar from '../components/sidebar';
 import About from '../components/landing-page/about'
 import Me from '../components/landing-page/me';
 import Portfolio from '../components/landing-page/portfolio';
-import Footer from '../components/landing-page/footer';
+import Footer from '../components/footer';
 
 export default function HomePage() {
     return (
         <body id="page-top">
             <Sidebar/>
             <MastHead/>
-            <Portfolio/>
             <About/>
             <Footer/>
         </body>

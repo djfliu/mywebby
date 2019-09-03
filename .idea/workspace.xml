@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67d53d2a-5dde-4c33-9d14-25a346142561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/stylish-portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stylish-portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing-page/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing-page/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing-page/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landing-page/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing-page/portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Works.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +55,15 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\src\components" />
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img\portfolio" />
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img\landingpage" />
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img" />
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,6 +126,13 @@
       <workItem from="1566610397743" duration="10175000" />
       <workItem from="1566675380888" duration="16626000" />
       <workItem from="1566794157893" duration="6681000" />
+      <workItem from="1567023198019" duration="1410000" />
+      <workItem from="1567185128429" duration="1391000" />
+      <workItem from="1567198042806" duration="1592000" />
+      <workItem from="1567217921897" duration="4235000" />
+      <workItem from="1567277161363" duration="4725000" />
+      <workItem from="1567357661687" duration="2194000" />
+      <workItem from="1567372470745" duration="10761000" />
     </task>
     <servers />
   </component>
