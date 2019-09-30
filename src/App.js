@@ -8,7 +8,6 @@ import Contact from './pages/Contact';
 import {CSSTransition, TransitionGroup} from "react-transition-group";
 
 
-
 function App() {
   return (
       <Route render={({location}) => {

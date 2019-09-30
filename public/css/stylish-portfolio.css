@@ -424,11 +424,11 @@ footer.footer .social-link:hover {
 
 
 a {
-  color: black;
+  color: white;
 }
 
 a:hover, a:focus, a:active {
-  color: gray;
+  color: cornflowerblue;
 }
 
 

@@ -8,6 +8,17 @@
   pointer-events: none;
 }
 
+.titleFont {
+  font-family: 'Playfair Display'
+}
+
+.card-header-image{
+  max-width: 60%;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
