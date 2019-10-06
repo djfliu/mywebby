@@ -4,7 +4,6 @@ import TechSection from "../TechSection";
 import {STRINGS} from "../../resources/strings";
 import SmallText from "../Text/SmallText";
 
-
 export default class about extends Component {
 
     constructor(props){

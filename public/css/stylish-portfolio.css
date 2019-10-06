@@ -105,6 +105,33 @@ h6 {
   background-size: cover;
 }
 
+.openSpaceBg {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/studio.jpg");
+  background: linear-gradient(35deg, rgb(255, 162, 124) 50%, rgba(255, 255, 255, 0.1) 50%), url("../img/studio.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.one{
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+  min-height: 500px;
+}
+.two{
+  background-color: #34ADFF;
+  background-image: -webkit-linear-gradient(150deg, #34ADFF 35%, #4CBFFF 35%);
+  min-height: 400px;
+}
+
+
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
@@ -238,17 +265,34 @@ h6 {
 .scroll-down{
   width: 60px;
   height: 60px;
-  position: absolute;
   bottom: 3.5rem;
   left: 5%;
   transform: translate(-50%, 0);
   z-index: 3;
   text-align: center;
-  color: #6e0c24; !important;
+  color: #ff626e; !important;
 }
 
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  background: rgba(39, 42, 43, 0.8);
+  transition: opacity 200ms ease-in-out;
+  border-radius: 4px;
+  margin: -15px 0 0 -15px;
+}
+
+.overlay:hover {
+   opacity: 1;
+}
+
+
 .scroll-down:active, .scroll-down:hover, .scroll-down:focus{
-    color: #ff626e; !important;
+    color: #007bff; !important;
 }
 
 .callout {
@@ -437,7 +481,7 @@ a:hover, a:focus, a:active {
   background-color: #27272c !important;
   border-color: #27272c !important;
   color: #fff !important;
-    border-radius: 5em;
+    border-radius: 2em;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {

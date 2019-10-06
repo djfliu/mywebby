@@ -35,7 +35,7 @@ export default class sidebar extends Component{
                                         <a href="#" ><i className="fas fa-user"/> THE OPENSPACE APP</a>
                                     </li>
                                     <li>
-                                        <a href="#" ><i className="far fa-address-card"/><Link to="/contact"> GET IN TOUCH</Link></a>
+                                        <a href="https://www.linkedin.com/in/danny-liu-b6y4u56u56/" ><i className="far fa-address-card"/>GET IN TOUCH</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -48,7 +48,7 @@ export default class sidebar extends Component{
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a className="text-white-50 mr-3" href="#">
+                                    <a className="text-white-50 mr-3" href="https://www.linkedin.com/in/danny-liu-b6y4u56u56/">
                                         <i className="icon-social-linkedin" />
                                     </a>
                                 </li>

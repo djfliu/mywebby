@@ -2,6 +2,7 @@ import React from 'react';
 import Typist from 'react-typist';
 import { STRINGS } from '../../resources/strings';
 import {Link} from "react-router-dom";
+import SmallText from "../Text/SmallText";
 
 const linkFont = {
         fontSize: '2em'
@@ -41,6 +42,9 @@ export const MastHeadTitle = () => (
                             </a>
                     </li>
             </ul>
-            <a className="btn-rounded btn-primary btn-xl js-scroll-trigger font-weight-bold"><Link to="/works" style={{color: 'white'}}>My work<i className="fas fa-arrow-right"></i></Link></a>
+        <SmallText text='Learn more'/>
+            <a className="scroll-down" href="#page-top">
+                <i className="fas fa-long-arrow-alt-down fa-3x"/>
+            </a>
     </div>
 );

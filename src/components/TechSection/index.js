@@ -3,7 +3,12 @@ import {Container, Row, Button, Card, Image} from 'react-bootstrap'
 import { STRINGS } from '../../resources/strings'
 import TonalityImg from '../../resources/imgs/tonality-thumbnnail.png'
 import ExpIcon from '../../resources/imgs/web-startup.png'
+import { Link } from 'react-router-dom'
 
+const buttonStyles = {
+    borderRadius: '5px',
+    backgroundColor: '#007bff'
+}
 
 export default class TechSection extends React.Component{
 
@@ -21,7 +26,7 @@ export default class TechSection extends React.Component{
                             <Card.Text>
                                 {STRINGS.prevExp}
                             </Card.Text>
-                            <Button variant="info"><a href='https://www.linkedin.com/in/danny-liu-b6y4u56u56/'>{STRINGS.expTechButton}</a></Button>
+                            <Button style={buttonStyles}><a href='https://www.linkedin.com/in/danny-liu-b6y4u56u56/'>{STRINGS.expTechButton}</a></Button>
                         </Card.Body>
 
                     </Card>
@@ -34,7 +39,7 @@ export default class TechSection extends React.Component{
                             <Card.Text>
                                 {STRINGS.tonalityDesc}
                             </Card.Text>
-                            <Button variant="info"><a href='https://play.google.com/store/apps/details?id=ca.uwaterloo.tonality'>{STRINGS.downloadApp}</a></Button>
+                            <Button style={buttonStyles}><a href='https://play.google.com/store/apps/details?id=ca.uwaterloo.tonality'>{STRINGS.downloadApp}</a></Button>
                         </Card.Body>
                     </Card>
                 </Row>
@@ -45,7 +50,7 @@ export default class TechSection extends React.Component{
                             <Card.Text>
                                 {STRINGS.openSpaceDesc}
                             </Card.Text>
-                            <Button variant="info">Learn more now!</Button>
+                            <Button style={buttonStyles}><Link to="/openspace" >Learn more now!</Link></Button>
                         </Card.Body>
                     </Card>
                 </Row>

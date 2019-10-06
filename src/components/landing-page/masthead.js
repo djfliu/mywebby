@@ -19,9 +19,6 @@ export default class masthead extends Component {
             <header className="masthead d-flex">
                <MastHeadTitle/>
                 <div className="overlay" />
-                <a className="scroll-down" href="#page-top">
-                    <i className="fas fa-long-arrow-alt-down fa-3x"></i>
-                </a>
             </header>
         )
     }
