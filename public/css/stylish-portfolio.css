@@ -106,15 +106,12 @@ h6 {
 }
 
 .openSpaceBg {
-  min-height: 30rem;
-  position: relative;
-  display: table;
+  min-height: 100%;
+  position: absolute;
   width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  height: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/studio.jpg");
-  background: linear-gradient(35deg, rgb(255, 162, 124) 50%, rgba(255, 255, 255, 0.1) 50%), url("../img/studio.jpg");
+  background: linear-gradient(90deg, rgb(255, 162, 124) 50%, rgba(255, 255, 255, 0.1) 50%), url("../img/studio.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
