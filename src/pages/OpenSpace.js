@@ -1,7 +1,5 @@
 import React from "react";
 import OpenSpaceScreen from "../components/OpenSpaceScreen";
-import Footer from "../components/footer";
-
 
 export default function OpenSpace() {
     return (

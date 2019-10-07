@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67d53d2a-5dde-4c33-9d14-25a346142561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resources/imgs/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imgs/works/church.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imgs/works/landscape.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imgs/works/palace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imgs/works/reflection.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imgs/works/wizzair.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/stylish-portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stylish-portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OpenSpaceScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OpenSpaceScreen/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MastHeadTitle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MastHeadTitle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Text/SmallText/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Text/SmallText/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing-page/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing-page/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing-page/masthead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing-page/masthead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/OpenSpace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OpenSpace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Works.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/imgs/works" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -47,16 +58,17 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\src\resources\imgs\works" />
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\src\resources\imgs" />
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\src\resources\imgs" />
+      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\src\resources\imgs\works" />
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img" />
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\src\components\Text\SmallText" />
       <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\src\components" />
-      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img\portfolio" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\src\resources\imgs" />
-      <recent name="E:\Users\djfliu\Documents\GitHub\mywebby\public\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -128,7 +140,7 @@
       <workItem from="1567372470745" duration="10761000" />
       <workItem from="1569769539762" duration="19721000" />
       <workItem from="1570291549591" duration="14551000" />
-      <workItem from="1570376127633" duration="2318000" />
+      <workItem from="1570376127633" duration="7256000" />
     </task>
     <servers />
   </component>

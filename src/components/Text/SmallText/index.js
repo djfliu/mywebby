@@ -1,5 +1,4 @@
 import React from 'react';
-import {STRINGS} from "../../../resources/strings";
 
 export default class SmallText extends React.Component {
 

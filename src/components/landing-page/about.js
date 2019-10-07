@@ -3,6 +3,7 @@ import Portfolio from "./portfolio";
 import TechSection from "../TechSection";
 import {STRINGS} from "../../resources/strings";
 import SmallText from "../Text/SmallText";
+import Me from "../../resources/imgs/me.jpg"
 
 export default class about extends Component {
 
@@ -22,7 +23,7 @@ export default class about extends Component {
                                 <div className="col-md-6 ml-auto mr-auto">
                                     <div className="profile">
                                         <div className="avatar">
-                                            <img src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF" alt="Circle Image" className="img-raised img-fluid" />
+                                            <img src={Me} alt="Circle Image" className="img-raised img-fluid" />
                                         </div>
                                         <div className="name">
                                             <h3 className="title">{STRINGS.aboutTitle}</h3>

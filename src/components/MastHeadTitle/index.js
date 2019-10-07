@@ -1,7 +1,6 @@
 import React from 'react';
 import Typist from 'react-typist';
 import { STRINGS } from '../../resources/strings';
-import {Link} from "react-router-dom";
 import SmallText from "../Text/SmallText";
 
 const linkFont = {

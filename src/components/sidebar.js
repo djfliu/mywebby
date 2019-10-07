@@ -26,16 +26,16 @@ export default class sidebar extends Component{
                             <nav id="sidebar">
                                 <ul className="list-unstyled components text-center" id="sideBarText">
                                     <li>
-                                        <a><i className="fas fa-user"/><Link to="/about"> ABOUT ME</Link></a>
+                                        <a><i className="fas fa-user"/><Link to="/"> HOME</Link></a>
                                     </li>
                                     <li>
-                                        <a href="#" ><i className="fas fa-camera"/><Link to="/works"> MY WORK</Link></a>
+                                        <i className="fas fa-camera"/><Link to="/works"> MY WORK</Link>
                                     </li>
                                     <li>
-                                        <a href="#" ><i className="fas fa-user"/> THE OPENSPACE APP</a>
+                                        <i className="fas fa-user"/><Link to="/openspace"> THE OPENSPACE APP</Link>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/danny-liu-b6y4u56u56/" ><i className="far fa-address-card"/>GET IN TOUCH</a>
+                                        <a href="https://www.linkedin.com/in/danny-liu-b6y4u56u56/" ><i className="far fa-address-card"/> GET IN TOUCH</a>
                                     </li>
                                 </ul>
                             </nav>
