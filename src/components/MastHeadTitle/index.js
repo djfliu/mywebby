@@ -1,11 +1,19 @@
 import React from 'react';
 import Typist from 'react-typist';
 import { STRINGS } from '../../resources/strings';
-import SmallText from "../Text/SmallText";
+import Button from "react-bootstrap/Button";
+import Row from "react-bootstrap/Row";
+import { Link } from 'react-router-dom'
 
 const linkFont = {
         fontSize: '2em'
 };
+
+const buttonStyles = {
+    borderRadius: '5px',
+    backgroundColor: '#007bff'
+}
+
 
 
 export const MastHeadTitle = () => (
@@ -41,8 +49,13 @@ export const MastHeadTitle = () => (
                             </a>
                     </li>
             </ul>
-        <SmallText text='Learn more'/>
-            <a className="scroll-down" href="#page-top">
+        <Row className="justify-content-md-center mb-4">
+            <Link to='/works'>
+                <Button style={buttonStyles}>My works</Button>
+            </Link>
+        </Row>
+
+            <a className="scroll-down" href="">
                 <i className="fas fa-long-arrow-alt-down fa-3x"/>
             </a>
     </div>

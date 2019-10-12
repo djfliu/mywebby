@@ -19,7 +19,7 @@ export const STRINGS = {
         'What sets this app apart from existing ones is the ability to select different scales to practice, ' +
         'as many simpler apps only contain one scale, ' +
         'which does not allow more advanced users to significantly improve their skills.',
-    downloadApp: 'Download the app on Android now!',
+    downloadApp: 'Download on Android now!',
     openSpaceDesc: '  Are you a studio looking to rent out your space to coaches and instructors?\n' +
         '                                OpenSpace is a platform design to connect you to fitness instructors that are in need of space to host seminars and classes.\n' +
         '                                We make marketing the most profitable part of your business easy!'

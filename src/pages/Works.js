@@ -33,6 +33,7 @@ export default function Works(){
                     <section className="jumbotron text-center mt-2">
                         <div className="container">
                             <h1 className="jumbotron-heading">The assorted collection</h1>
+                            <h6>1</h6>
                             <p className="lead text-muted">The album below is an assorted collection of portraits, landscape, nature and travel photos that I have taken this past year.</p>
                         </div>
                     </section>

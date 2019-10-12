@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default class ImageCarousel extends React.Component{
 
@@ -7,7 +8,7 @@ export default class ImageCarousel extends React.Component{
             <div id="carousel-example-2" className="carousel slide carousel-fade z-depth-1-half portfolio-layout" data-ride="carousel">
                 {/*/.Indicators*/}
                 {/*Slides*/}
-                <div className="carousel-inner" role="listbox" >
+               <Link to='/works'><div className="carousel-inner" role="listbox" >
                     <div className="carousel-item active">
                         <div className="view">
                             <img className="d-block w-100" src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF" alt="2nd photo" />
@@ -37,7 +38,7 @@ export default class ImageCarousel extends React.Component{
                             <h3 className="h3-responsive">TRAVEL</h3>
                         </div>
                     </div>
-                </div>
+               </div></Link>
                 {/*/.Slides*/}
                 {/*Controls*/}
                 <a className="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
