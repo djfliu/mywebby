@@ -17,7 +17,7 @@ export default class OpenSpaceScreen extends React.Component{
         e.preventDefault()
         this.setState({submitted: true})
     }
-    
+
     render(){
         return (
             <div className="main main-raised profile-page vertical-center" style={{width: '45%', marginRight: '50%', marginTop: '5%'}}>

@@ -9,6 +9,7 @@ import Plane from '../resources/imgs/works/wizzair.jpg'
 import Church from '../resources/imgs/works/church.jpg'
 import Palace from '../resources/imgs/works/palace.jpg'
 import Reflection from '../resources/imgs/works/reflection.jpg'
+import SingleImage from "../components/SingleImage";
 
 
 const Page = styled.div`
@@ -38,36 +39,12 @@ export default function Works(){
                         </div>
                     </section>
                     <div className="row text-center text-lg-left">
-                        <div className="col-lg-4 col-md-6 col-6 work-img">
-                            <a className="d-block mb-4 h-100">
-                                <img className="img-fluid img-thumbnail" src={Plane} alt="" />
-                            </a>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-6 work-img">
-                            <a className="d-block mb-4 h-100">
-                                <img className="img-fluid img-thumbnail" src={Church} alt="" />
-                            </a>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-6 work-img">
-                            <a className="d-block mb-4 h-100">
-                                <img className="img-thumbnail" src={Reflection} alt="" />
-                            </a>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-6 work-img">
-                            <a className="d-block mb-4 h-100">
-                                <img className="img-fluid img-thumbnail" src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF" alt="" />
-                            </a>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-6 work-img">
-                            <a className="d-block mb-4 h-100">
-                                <img className="img-fluid img-thumbnail" src={LandScape} alt="" />
-                            </a>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-6 work-img">
-                            <a className="d-block mb-4 h-100">
-                                <img className="img-fluid img-thumbnail" src={Palace} alt="" />
-                            </a>
-                        </div>
+                        <SingleImage src={Plane}/>
+                        <SingleImage src={Church}/>
+                        <SingleImage src={Reflection}/>
+                        <SingleImage src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF"/>
+                        <SingleImage src={LandScape}/>
+                        <SingleImage src={Palace}/>
                     </div>
                 </div>
             </div>
