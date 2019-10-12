@@ -49,7 +49,7 @@ export const MastHeadTitle = () => (
                             </a>
                     </li>
             </ul>
-        <Row className="justify-content-md-center mb-4">
+        <Row className="justify-content-center mb-4">
             <Link to='/works'>
                 <Button style={buttonStyles}>My works</Button>
             </Link>
