@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb424b12bdf801be86200ae455ba7ef7",
+    "revision": "c54d3c0760fde48fdb1ef70013f10821",
     "url": "/mywebby/index.html"
   },
   {
-    "revision": "2dd6a4543a64b4c86e4a",
+    "revision": "028bd658bd1fc8a2387d",
     "url": "/mywebby/static/css/main.b1b50c53.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mywebby/static/js/2.575fd95a.chunk.js"
   },
   {
-    "revision": "2dd6a4543a64b4c86e4a",
-    "url": "/mywebby/static/js/main.02e3ad4b.chunk.js"
+    "revision": "028bd658bd1fc8a2387d",
+    "url": "/mywebby/static/js/main.f2f3da5f.chunk.js"
   },
   {
     "revision": "27b858da3bb0f8ea5671",
