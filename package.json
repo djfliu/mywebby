@@ -2,7 +2,7 @@
   "name": "mywebby",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dannyjfliu.ca",
+  "homepage": "https://djfliu.github.io/mywebby",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "express": "^4.17.1",
