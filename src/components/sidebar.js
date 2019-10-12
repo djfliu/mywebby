@@ -16,6 +16,10 @@ export default class sidebar extends Component{
         this.setState({ sidebarOpen: open });
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render(){
         return (
             <Sidebar
