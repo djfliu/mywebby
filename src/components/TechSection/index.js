@@ -46,11 +46,10 @@ export default class TechSection extends React.Component{
                 <Row>
                     <Card className="text-center mx-auto my-3">
                         <Card.Body>
-                            <Card.Title>OpenSpace</Card.Title>
+                            <Card.Title>Aiya Squares</Card.Title>
                             <Card.Text>
-                                {STRINGS.openSpaceDesc}
+                                {STRINGS.aiyasquares}
                             </Card.Text>
-                            <Button style={buttonStyles}><Link to="/openspace" >Learn more now!</Link></Button>
                         </Card.Body>
                     </Card>
                 </Row>
