@@ -3,7 +3,6 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Works from './pages/Works';
-import OpenSpace from './pages/OpenSpace';
 import {CSSTransition, TransitionGroup} from "react-transition-group";
 
 
