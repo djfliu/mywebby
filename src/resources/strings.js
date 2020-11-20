@@ -20,7 +20,5 @@ export const STRINGS = {
         'as many simpler apps only contain one scale, ' +
         'which does not allow more advanced users to significantly improve their skills.',
     downloadApp: 'Download on Android now!',
-    openSpaceDesc: '  Are you a studio looking to rent out your space to coaches and instructors?\n' +
-        '                                OpenSpace is a platform design to connect you to fitness instructors that are in need of space to host seminars and classes.\n' +
-        '                                We make marketing the most profitable part of your business easy!'
+    aiyasquares: 'This is my snack company that I started with the help of my family. We currently sell in person, and an e-commerce platform is in the works. Stay tuned!'
 }
