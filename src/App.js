@@ -19,7 +19,6 @@ function App() {
             <Switch>
                 <Route exact path="/" component={HomePage}/>
                 <Route exact path="/works" component={Works}/>
-                <Route exact path="/openspace" component={OpenSpace}/>
             </Switch>
           </CSSTransition>
       </TransitionGroup>
