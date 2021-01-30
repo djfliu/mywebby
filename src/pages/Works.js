@@ -45,6 +45,7 @@ export default function Works(){
                         <SingleImage src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF"/>
                         <SingleImage src={LandScape}/>
                         <SingleImage src={Palace}/>
+                        <SingleImage src="https://dannyjfliu.files.wordpress.com/2016/12/a709362e581c90eadf6aa922696e56a7.png?w=248&h=280&crop=1"/>
                     </div>
                 </div>
             </div>

@@ -20,5 +20,6 @@ export const STRINGS = {
         'as many simpler apps only contain one scale, ' +
         'which does not allow more advanced users to significantly improve their skills.',
     downloadApp: 'Download on Android now!',
-    aiyasquares: 'This is my snack company that I started with the help of my family. We currently sell in person, and an e-commerce platform is in the works. Stay tuned!'
+    aiyabites: 'This is my snack company that I started with the help of my family. We currently sell in person and online through our e-commerce platform.',
+    visitAiyabites: 'Check us out!'
 }
