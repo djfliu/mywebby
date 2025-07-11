@@ -324,27 +324,27 @@ function BirthdayTikTok() {
   // Categorized photos for different tabs
   const photoCategories = {
     videos: [
-      { id: 1, src: '/img/birthday/business_class.mp4', views: '2.1M', pinned: true },
-      { id: 2, src: '/img/birthday/run_fuji.mp4', views: '1.8M', pinned: true },
-      { id: 3, src: '/img/birthday/half_marathon.mp4', views: '956K', pinned: true },
+      { id: 1, src: '/img/birthday/business_class.mp4', views: '2.1M', pinned: true, description: 'Living our best life in business class! ✈️ This trip to Japan was absolutely incredible and we felt so fancy flying in style.' },
+      { id: 2, src: '/img/birthday/run_fuji.mp4', views: '1.8M', pinned: true, description: 'Running with Mount Fuji in the background! 🏃‍♀️🗻 One of the most beautiful and challenging runs of my life. The view was absolutely breathtaking!' },
+      { id: 3, src: '/img/birthday/half_marathon.mp4', views: '956K', pinned: true, description: 'Crushing that half marathon! 🏃‍♀️💪 So proud of this achievement - all those training runs paid off. Feeling strong and accomplished!' },
     ],
     food: [
-      { id: 7, src: '/img/magazine/manten.jpg' , views: '1.2M', pinned: true },
-      { id: 8, src: '/img/birthday/food/curry_rice.jpg', views: '987K', pinned: true },
-      { id: 9, src: '/img/magazine/cremia_2.jpg', views: '987K', pinned: true },
-      { id: 10, src: '/img/birthday/food/uni_omak1.jpg', views: '756K' },
-      { id: 11, src: '/img/birthday/food/plane_duck.jpg', views: '645K' },
-      { id: 12, src: '/img/birthday/food/claypot.jpg', views: '523K' },
-      { id: 13, src: '/img/birthday/food/yoshi.jpg', views: '412K' },
-      { id: 14, src: '/img/birthday/food/udon.jpg', views: '412K' },
+      { id: 7, src: '/img/magazine/manten.jpg' , views: '1.2M', pinned: true, description: 'Amazing ramen at Manten! 🍜 The broth was so rich and flavorful, definitely one of the best bowls we had in Japan.' },
+      { id: 8, src: '/img/birthday/food/curry_rice.jpg', views: '987K', pinned: true, description: 'Japanese curry rice hits different! 🍛 So comforting and delicious, we ended up having this multiple times during our trip.' },
+      { id: 9, src: '/img/magazine/cremia_2.jpg', views: '987K', pinned: true, description: 'Cremia soft serve is pure heaven! 🍦 The creamiest, most luxurious ice cream ever. Worth every single yen!' },
+      { id: 10, src: '/img/birthday/food/uni_omak1.jpg', views: '756K', description: 'Fresh uni that melts in your mouth! 🍣 This was my first time trying sea urchin and it was absolutely divine.' },
+      { id: 11, src: '/img/birthday/food/plane_duck.jpg', views: '645K', description: 'Airplane meal done right! 🦆 Even the in-flight dining was incredible on this trip. Japanese hospitality is unmatched.' },
+      { id: 12, src: '/img/birthday/food/claypot.jpg', views: '523K', description: 'Traditional claypot cooking! 🍲 The flavors were so deep and authentic, cooked to perfection in this beautiful vessel.' },
+      { id: 13, src: '/img/birthday/food/yoshi.jpg', views: '412K', description: 'Exquisite kaiseki dining! 🍱 Every dish was a work of art, beautifully presented and bursting with flavor.' },
+      { id: 14, src: '/img/birthday/food/udon.jpg', views: '412K', description: 'Handmade udon noodles! 🍜 Thick, chewy, and absolutely perfect. Watching them make it fresh was amazing.' },
     ],
     favourites: [
-      { id: 15, src: '/img/birthday/faves/conch_dragonfruit.jpg', views: '3.2M', pinned: true },
-      { id: 16, src: '/img/birthday/faves/conch_jumbo.jpg', views: '2.8M', pinned: true },
-      { id: 17, src: '/img/birthday/faves/conch_ogino.jpg', views: '2.1M', pinned: true },
-      { id: 18, src: '/img/birthday/faves/conch_pizza.jpg', views: '1.9M' },
-      { id: 19, src: '/img/birthday/faves/conch_cremia.jpg', views: '1.5M' },
-      { id: 20, src: '/img/birthday/faves/conch_strawberry.jpg', views: '1.2M' },
+      { id: 15, src: '/img/birthday/faves/conch_dragonfruit.jpg', views: '3.2M', pinned: true, description: 'My beautiful girl enjoying fresh dragonfruit! 🐚🍇 You look absolutely radiant and I love seeing you try new things.' },
+      { id: 16, src: '/img/birthday/faves/conch_jumbo.jpg', views: '2.8M', pinned: true, description: 'Jumbo takoyaki adventure! 🐙 Your excitement trying these giant octopus balls was the cutest thing ever.' },
+      { id: 17, src: '/img/birthday/faves/conch_ogino.jpg', views: '2.1M', pinned: true, description: 'Perfect moment at Ogino! ✨ You were glowing in this light and I couldn\'t help but capture this beautiful memory.' },
+      { id: 18, src: '/img/birthday/faves/conch_pizza.jpg', views: '1.9M', description: 'Pizza date in Japan! 🍕 Even when we\'re halfway around the world, we still find the best pizza spots together.' },
+      { id: 19, src: '/img/birthday/faves/conch_cremia.jpg', views: '1.5M', description: 'Your face when you first tried Cremia! 😍 Pure joy and amazement - this is why I love experiencing new things with you.' },
+      { id: 20, src: '/img/birthday/faves/conch_strawberry.jpg', views: '1.2M', description: 'Strawberry picking perfection! 🍓 You were so happy and carefree, picking the sweetest berries. Such a perfect day together.' },
     ]
   };
   

@@ -185,7 +185,7 @@ function PhotoModal({ photo, profileImage, username, onClose }) {
         </ActionBar>
         
         <ModalCaption>
-          <p>{photo.caption || "Birthday memories! 🎂✨"}</p>
+          <p>{photo.description || "Birthday memories! 🎂✨"}</p>
           <p className="hashtags">#birthday #memories #celebration</p>
         </ModalCaption>
         
