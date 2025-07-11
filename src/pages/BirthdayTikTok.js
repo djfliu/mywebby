@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import PhotoModal from '../components/PhotoModal';
 
 const TikTokContainer = styled.div`
   background: #fff;
@@ -211,14 +212,22 @@ const PhotoItem = styled.div`
   .overlay {
     position: absolute;
     bottom: 8px;
-    left: 8px;
+    left: 20px;
     display: flex;
     align-items: center;
     gap: 4px;
     color: white;
-    font-size: 14px;
-    font-weight: 600;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+    font-size: 13px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 4px;
+    backdrop-filter: blur(2px);
+    z-index: 2;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
   }
   
   .pinned {
@@ -265,6 +274,8 @@ const ConfettiPiece = styled.div`
 function BirthdayTikTok() {
   const [activeTab, setActiveTab] = useState('videos');
   const [showConfetti, setShowConfetti] = useState(false);
+  const [selectedPhoto, setSelectedPhoto] = useState(null);
+  const [daysOld, setDaysOld] = useState('');
   
   const triggerConfetti = () => {
     setShowConfetti(true);
@@ -274,6 +285,13 @@ function BirthdayTikTok() {
   useEffect(() => {
     // Trigger confetti on page load
     triggerConfetti();
+    
+    // Calculate days old (assuming birth date is June 15, 1999 - modify as needed)
+    const birthDate = new Date('1999-06-15');
+    const today = new Date();
+    const diffTime = Math.abs(today - birthDate);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+    setDaysOld(diffDays.toLocaleString());
   }, []);
   
   const generateConfetti = () => {
@@ -306,28 +324,27 @@ function BirthdayTikTok() {
   // Categorized photos for different tabs
   const photoCategories = {
     videos: [
-      { id: 1, src: '/img/birthday/half_marathon_finish.jpg', views: '2.1M', pinned: true },
-      { id: 2, src: '/img/birthday/goat2.jpg', views: '1.8M', pinned: true },
-      { id: 3, src: '/img/birthday/goat3.jpg', views: '956K', pinned: true },
-      { id: 4, src: '/img/birthday/goat4.jpg', views: '743K' },
-      { id: 5, src: '/img/birthday/goat5.jpg', views: '621K' },
-      { id: 6, src: '/img/birthday/goat6.jpg', views: '534K' },
+      { id: 1, src: '/img/birthday/business_class.mp4', views: '2.1M', pinned: true },
+      { id: 2, src: '/img/birthday/run_fuji.mp4', views: '1.8M', pinned: true },
+      { id: 3, src: '/img/birthday/half_marathon.mp4', views: '956K', pinned: true },
     ],
     food: [
-      { id: 7, src: '/img/birthday/food/udon.jpg', views: '1.2M', pinned: true },
+      { id: 7, src: '/img/magazine/manten.jpg' , views: '1.2M', pinned: true },
       { id: 8, src: '/img/birthday/food/curry_rice.jpg', views: '987K', pinned: true },
-      { id: 9, src: '/img/birthday/food/uni_omak.jpg', views: '756K' },
-      { id: 10, src: '/img/birthday/food/20250426_155436.jpg', views: '645K' },
-      { id: 11, src: '/img/birthday/food/20250426_155446.jpg', views: '523K' },
-      { id: 12, src: '/img/birthday/food/20250426_155456.jpg', views: '412K' },
+      { id: 9, src: '/img/magazine/cremia_2.jpg', views: '987K', pinned: true },
+      { id: 10, src: '/img/birthday/food/uni_omak1.jpg', views: '756K' },
+      { id: 11, src: '/img/birthday/food/plane_duck.jpg', views: '645K' },
+      { id: 12, src: '/img/birthday/food/claypot.jpg', views: '523K' },
+      { id: 13, src: '/img/birthday/food/yoshi.jpg', views: '412K' },
+      { id: 14, src: '/img/birthday/food/udon.jpg', views: '412K' },
     ],
     favourites: [
-      { id: 13, src: '/img/birthday/fav1.jpg', views: '3.2M', pinned: true },
-      { id: 14, src: '/img/birthday/fav2.jpg', views: '2.8M', pinned: true },
-      { id: 15, src: '/img/birthday/fav3.jpg', views: '2.1M', pinned: true },
-      { id: 16, src: '/img/birthday/fav4.jpg', views: '1.9M' },
-      { id: 17, src: '/img/birthday/fav5.jpg', views: '1.5M' },
-      { id: 18, src: '/img/birthday/fav6.jpg', views: '1.2M' },
+      { id: 15, src: '/img/birthday/faves/conch_dragonfruit.jpg', views: '3.2M', pinned: true },
+      { id: 16, src: '/img/birthday/faves/conch_jumbo.jpg', views: '2.8M', pinned: true },
+      { id: 17, src: '/img/birthday/faves/conch_ogino.jpg', views: '2.1M', pinned: true },
+      { id: 18, src: '/img/birthday/faves/conch_pizza.jpg', views: '1.9M' },
+      { id: 19, src: '/img/birthday/faves/conch_cremia.jpg', views: '1.5M' },
+      { id: 20, src: '/img/birthday/faves/conch_strawberry.jpg', views: '1.2M' },
     ]
   };
   
@@ -340,6 +357,15 @@ function BirthdayTikTok() {
         <ConfettiContainer>
           {generateConfetti()}
         </ConfettiContainer>
+      )}
+      
+      {selectedPhoto && (
+        <PhotoModal 
+          photo={selectedPhoto}
+          profileImage="/img/birthday/conch.jpeg"
+          username="@itsconch"
+          onClose={() => setSelectedPhoto(null)}
+        />
       )}
       <Header>
         <BackButton>←</BackButton>
@@ -359,7 +385,7 @@ function BirthdayTikTok() {
         
         <StatsContainer>
           <StatItem>
-            <span className="number">{}</span>
+            <span className="number">{daysOld}</span>
             <div className="label">Days Old</div>
           </StatItem>
           <StatItem>
@@ -399,7 +425,7 @@ function BirthdayTikTok() {
           active={activeTab === 'food'} 
           onClick={() => setActiveTab('food')}
         >
-          🍳 Food
+          🍳 Favourite Foods
         </Tab>
         <Tab 
           active={activeTab === 'favourites'} 
@@ -410,15 +436,32 @@ function BirthdayTikTok() {
       </TabContainer>
 
       <PhotoGrid>
-        {currentPhotos.map((photo) => (
-          <PhotoItem key={photo.id}>
-            <img src={photo.src} alt={`Memory ${photo.id}`} />
-            {photo.pinned && <div className="pinned">Pinned</div>}
-            <div className="overlay">
-              ▶ {photo.views}
-            </div>
-          </PhotoItem>
-        ))}
+        {currentPhotos.map((photo) => {
+          // Check if the file is a video based on extension
+          const isVideo = photo.src && (photo.src.endsWith('.mp4') || photo.src.endsWith('.mov') || photo.src.endsWith('.webm') || photo.src.endsWith('.avi'));
+          
+          return (
+            <PhotoItem key={photo.id} onClick={() => setSelectedPhoto(photo)}>
+              {isVideo ? (
+                <video 
+                  src={photo.src} 
+                  muted 
+                  loop 
+                  playsInline
+                  onMouseEnter={(e) => e.target.play()}
+                  onMouseLeave={(e) => e.target.pause()}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              ) : (
+                <img src={photo.src} alt={`Memory ${photo.id}`} />
+              )}
+              {photo.pinned && <div className="pinned">Pinned</div>}
+              <div className="overlay">
+                ▶ {photo.views}
+              </div>
+            </PhotoItem>
+          );
+        })}
       </PhotoGrid>
     </TikTokContainer>
   );

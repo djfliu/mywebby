@@ -4,6 +4,7 @@ import { lazy } from 'react';
 export const LazyWorks = lazy(() => import('../pages/Works'));
 export const LazyHomePage = lazy(() => import('../pages/HomePage'));
 export const LazyBirthdayTikTok = lazy(() => import('../pages/BirthdayTikTok'));
+export const LazyJapanMagazine = lazy(() => import('../pages/JapanMagazine'));
 
 // Loading component for Suspense fallback
 export const LoadingSpinner = () => (

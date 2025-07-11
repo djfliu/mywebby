@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import { LazyHomePage, LazyWorks, LazyBirthdayTikTok, LoadingSpinner } from './utils/lazyComponents';
+import { LazyHomePage, LazyWorks, LazyBirthdayTikTok, LazyJapanMagazine, LoadingSpinner } from './utils/lazyComponents';
 import './App.css';
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
               <Route path="/" element={<LazyHomePage />} />
               <Route path="/works" element={<LazyWorks />} />
               <Route path="/birthday" element={<LazyBirthdayTikTok />} />
+              <Route path="/japan" element={<LazyJapanMagazine />} />
             </Routes>
           </Suspense>
         </CSSTransition>
