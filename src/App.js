@@ -1,29 +1,30 @@
-import React from 'react';
+import React, { Suspense } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { LazyHomePage, LazyWorks, LazyBirthdayTikTok, LoadingSpinner } from './utils/lazyComponents';
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import Works from './pages/Works';
-import {CSSTransition, TransitionGroup} from "react-transition-group";
-
 
 function App() {
+  const location = useLocation();
+  
   return (
-      <Route render={({location}) => {
-      return (
-      <TransitionGroup component={null}>
-          <CSSTransition
-              timeout={300}
-              classNames="page"
-              key={location.key}>
-            <Switch>
-                <Route exact path="/" component={HomePage}/>
-                <Route exact path="/works" component={Works}/>
-            </Switch>
-          </CSSTransition>
+    <div className="App">
+      <TransitionGroup>
+        <CSSTransition
+          key={location.key}
+          classNames="page"
+          timeout={400}
+        >
+          <Suspense fallback={<LoadingSpinner />}>
+            <Routes location={location}>
+              <Route path="/" element={<LazyHomePage />} />
+              <Route path="/works" element={<LazyWorks />} />
+              <Route path="/birthday" element={<LazyBirthdayTikTok />} />
+            </Routes>
+          </Suspense>
+        </CSSTransition>
       </TransitionGroup>
-  );
-      }}
-      />
+    </div>
   );
 }
 

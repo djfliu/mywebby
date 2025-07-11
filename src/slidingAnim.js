@@ -1,4 +1,4 @@
-import {keyframes} from "styled-components";
+import { keyframes } from "styled-components";
 
 export default class SlidingAnimations {
     static slideInLeft = keyframes`

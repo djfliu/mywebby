@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Sidebar from "../components/sidebar";
 import Footer from "../components/footer";
 import '../styles/worksStyle.css'
 import SlidingAnimations from "../slidingAnim";
-import styled from "styled-components";
+import { styled } from "styled-components";
 import LandScape from '../resources/imgs/works/landscape.jpg'
 import Plane from '../resources/imgs/works/wizzair.jpg'
 import Church from '../resources/imgs/works/church.jpg'
@@ -24,12 +24,20 @@ const WorksPageElm = styled(Page)`
   }
 `;
 
-export default function Works(){
+const Works = () => {
+    const [imageCollection] = useState([
+        { id: 1, src: Plane, alt: 'Airplane in sky' },
+        { id: 2, src: Church, alt: 'Church architecture' },
+        { id: 3, src: Reflection, alt: 'Reflection in water' },
+        { id: 4, src: LandScape, alt: 'Beautiful landscape' },
+        { id: 5, src: Palace, alt: 'Palace view' },
+        { id: 6, src: 'https://dannyjfliu.files.wordpress.com/2016/12/a709362e581c90eadf6aa922696e56a7.png?w=248&h=280&crop=1', alt: 'Portfolio item' },
+    ]);
 
     return (
         <WorksPageElm>
             <div>
-                <Sidebar/>
+                <Sidebar />
                 <div className="container">
                     <section className="jumbotron text-center mt-2">
                         <div className="container">
@@ -39,19 +47,15 @@ export default function Works(){
                         </div>
                     </section>
                     <div className="row text-center text-lg-left">
-                        <SingleImage src={Plane}/>
-                        <SingleImage src={Church}/>
-                        <SingleImage src={Reflection}/>
-                        <SingleImage src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF"/>
-                        <SingleImage src={LandScape}/>
-                        <SingleImage src={Palace}/>
-                        <SingleImage src="https://dannyjfliu.files.wordpress.com/2016/12/a709362e581c90eadf6aa922696e56a7.png?w=248&h=280&crop=1"/>
+                        {imageCollection.map(image => (
+                            <SingleImage key={image.id} src={image.src} alt={image.alt} />
+                        ))}
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </WorksPageElm>
+    );
+};
 
-    )
-}
-
+export default React.memo(Works);

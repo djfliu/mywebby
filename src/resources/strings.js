@@ -1,9 +1,6 @@
 export const STRINGS = {
     mastHeadTitle: 'Hey, I\'m Danny!',
-    aboutme: 'A jack of all trades, but a master of none. -' +
-        ' Software Engineer, Former Product Manager, Photographer, Olympic Weightlifter, and a Self-proclaimed Athlete - ' +
-        'much like how many people take pride in a balanced diet, I take pride in a balanced life... and a balanced diet. - ' +
-        'Currently focused on becoming better at using Stack Overflow, and lifting heavy weight overhead.',
+    aboutme: 'Currently building the LLM Agent Platform at Upgrade[https://www.upgrade.com/].',
     photographyLabel: 'Works',
     techLabel: 'Tech stuff',
     aboutTitle: 'About me',

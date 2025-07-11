@@ -3,7 +3,6 @@ import {Container, Row, Button, Card, Image} from 'react-bootstrap'
 import { STRINGS } from '../../resources/strings'
 import TonalityImg from '../../resources/imgs/tonality-thumbnnail.png'
 import ExpIcon from '../../resources/imgs/web-startup.png'
-import { Link } from 'react-router-dom'
 
 const buttonStyles = {
     borderRadius: '5px',

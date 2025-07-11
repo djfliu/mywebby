@@ -11,7 +11,7 @@ export default class ImageCarousel extends React.Component{
                <Link to='/works'><div className="carousel-inner" role="listbox" >
                     <div className="carousel-item active">
                         <div className="view">
-                            <img className="d-block w-100" src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF" alt="2nd photo" />
+                            <img className="d-block w-100" src="https://public.adobecc.com/files/1UF5SE3355V0U20YF4NYRNAJTAPEFF" alt="Portrait photography" />
                             <div className="mask rgba-black-light" />
                         </div>
                         <div className="carousel-caption justify-content-center align-items-center">

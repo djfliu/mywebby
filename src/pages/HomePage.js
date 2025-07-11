@@ -4,13 +4,17 @@ import Sidebar from '../components/sidebar';
 import About from '../components/landing-page/about'
 import Footer from '../components/footer';
 
-export default function HomePage() {
+const HomePage = () => {
     return (
-        <body id="page-top">
+        <div id="page-top" className="page-container">
             <Sidebar/>
             <MastHead/>
-            <About/>
+            <section id="about">
+                <About/>
+            </section>
             <Footer/>
-        </body>
+        </div>
     )
-}
+};
+
+export default React.memo(HomePage);
